@@ -22,7 +22,7 @@ Komentar dalam Python dimulai dengan karakter hash, # dan diperpanjang hingga ak
 
 spam = 1  # and this is the second comment
           # ... and now a third!
-text = "# This is not a comment because it's inside quotes."
+text =  "# This is not a comment because it's inside quotes."
 
 -Numbers
 dapat mengetikkan ekspresi dan itu akan menulis nilainya. Sintaks ekspresi langsung: operator +, -, * dan / tanda kurung (()) dapat Misalnya:
