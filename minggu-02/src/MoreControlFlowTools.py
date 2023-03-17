@@ -190,6 +190,7 @@ def fib(n):    # tulis deret Fibonacci hingga n
         print(a, end=' ')
         a, b = b, a+b
     print()
+
 # Sekarang panggil fungsi yang baru saja kita definisikan:
 fib(2000)
 fib
@@ -199,7 +200,6 @@ fib(0)
 print(fib(0))
 
 def fib2(n):  # mengembalikan deret Fibonacci hingga n
-    """Return a list containing the Fibonacci series up to n."""
     result = []
     a, b = 0, 1
     while a < n:
