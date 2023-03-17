@@ -184,7 +184,6 @@ match color:
 
 ## Defining Functions ##
 def fib(n):    # tulis deret Fibonacci hingga n
-    """Print a Fibonacci series up to n."""
     a, b = 0, 1
     while a < n:
         print(a, end=' ')
